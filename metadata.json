@@ -1,0 +1,6 @@
+{
+  "name": "Meniscus & BESS Knee Rehab - Pemulihan Lutut Pasca Operasi",
+  "description": "Aplikasi panduan latihan mobilitas lutut dan penguatan kuadrisep aman untuk robekan meniskus pasca operasi BESS (minggu 6+), dengan timer audio, visual gerakan, pengingat harian, dan grafik progres.",
+  "requestFramePermissions": ["notifications"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
