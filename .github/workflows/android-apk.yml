@@ -23,11 +23,12 @@ jobs:
           distribution: temurin
           java-version: '21'
 
+
       - name: Install dependencies
         run: |
-          npm install --no-package-lock
-          npm install --no-save --no-package-lock @capacitor/core@7 @capacitor/cli@7 @capacitor/android@7
-
+          npm install --legacy-peer-deps --no-package-lock
+          npm install --legacy-peer-deps --no-save --no-package-lock @capacitor/core@7 @capacitor/cli@7 @capacitor/android@7
+          
       - name: Build web application
         run: npm run build
 
